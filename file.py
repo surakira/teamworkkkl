@@ -54,11 +54,4 @@ def PutPixle(win, x, y):
 def main():
     x1 = int(input("Enter Start X: "))
     y1 = int(input("Enter Start Y: "))
-    x2 = int(input("Enter End X: "))
-    y2 = int(input("Enter End Y: "))
-
-    BresenhamLine(x1, y1, x2, y2)
-
-
-if __name__ == "__main__":
-    main()
+    x2 = int(input("Enter End X:
