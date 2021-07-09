@@ -7,7 +7,11 @@ def BresenhamLine(x1, y1, x2, y2):
 
     # creating the window
     winX = 600
-    - x1)
+    winY = 600
+    win = GraphWin('Brasenham Line', winX, winY)
+
+    # measure the distance
+    dx = abs(x2 - x1)
     dy = abs(y2 - y1)
 
     # prepare the p attrib
